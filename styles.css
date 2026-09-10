@@ -18,8 +18,9 @@ p {
   margin: 0 0 12px 0;
 }
 
-h3 {
+.description {
   margin: 0 0 20px 0;
+  font-size: 18px;
 }
 
 .page-wrapper {
@@ -42,6 +43,8 @@ a:hover {
 }
 
 .primary-button {
+  display: inline-block;
+  text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -54,8 +57,10 @@ a:hover {
   border: none;
   transition: 0.6s ease;
 }
+
 .primary-button:hover {
   background-color: #9e2a2b;
+  color: white;
   cursor: pointer;
 }
 .hero-image {
